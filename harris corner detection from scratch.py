@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
+# Harris Corner detection from scratch 
 
 import cv2 
 import matplotlib.pyplot as plt
