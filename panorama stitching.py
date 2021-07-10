@@ -1,9 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[86]:
-
-
+# Panorama Stitching from scratch 
+# Inbuilt SIFT function is not used to find keypoints
 import cv2 
 import matplotlib.pyplot as plt
 import numpy as np
