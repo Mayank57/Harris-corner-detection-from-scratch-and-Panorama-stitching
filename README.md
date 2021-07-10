@@ -75,7 +75,6 @@ level is known as one octave. This keeps going on until 4
 images are produced ( 4 is a researched value ) i.e. 4 octaves.
 Sigma value for each octave is different. Consecutive images
 of each octave are subtracted to obtain the difference.
-Fig. 2.
 In Keypoint Localisation, our aim is to detect the maxima
 and minima now. This is achieved by comparing a pixel with
 its neighbors in the current scale as well as in two adjacent
@@ -95,6 +94,7 @@ to use the normalized region around the key point. Thus a
 of 4*4 dimensions. For these 4*4 blocks we generate 8 bin
 histograms using magnitude and orientation. Thus the vector
 returned through this would be consisting of 128 values.
+
 
 ## FEATURE MATCHING USING HOMOGRAPHY
 We were able to retrieve descriptors and key points. Now
