@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
+#Panorama stitching using inbuilt SIFT function
 import cv2 
 import matplotlib.pyplot as plt
 import numpy as np
